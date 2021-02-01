@@ -103,42 +103,42 @@ input, select {
     vertical-align:middle;
 }
 
-.ヘッダー{
+.header{
     background: black;
     height: 70px;
 }
-.ヘッダー郡{
+.header-county{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.会社名{
+.company-name{
     font-size: 28px;
     font-weight: bold;
     margin-left: 35px;
     color:white;
     line-height: 70px;
 }
-.コンテンツ ul{
+.content ul{
     display: flex;
 }
-.コンテンツ li{
+.content li{
     margin-right: 35px;
     font-size: 16px;
 }
-.コンテンツ a{
+.content a{
     color: white;
     text-decoration: none;
 }
-.題名{
+.Title{
     height: 600px;
-    background-image: url(/Users/asoshinahisanori/coachtech/img/eyecatch.jpg);
+    background-image: url(./img/eyecatch.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-    
+
 }
-.タイトル{
+.title{
     font-size: 45px;
     font-style: italic;
     color: white;
@@ -147,7 +147,7 @@ input, select {
     top: 50%;
     left: 10%;
 }
-.ニュース{
+.news{
     width: 50%;
     height: 60px;
     background: white;
@@ -155,22 +155,22 @@ input, select {
     top: 540px;
     left: 50%;
 }
-.ニュース内容{
+.news-content{
     padding: 10px;
 }
-.ミッション{
+.misson{
     color: white;
     background: black;
     height: 400px;
 }
-.ミッション h2,
-.ミッション p{
+.misson h2,
+.misson p{
     font-weight: bold;
     padding: 15px;
     z-index: 2;
     
 }
-.ミッション h2{
+.misson h2{
     font-size: 28px;
     position: absolute;
     top: 750px;
@@ -179,7 +179,7 @@ input, select {
     bottom: 0;
     
 }
-.ミッション p{
+.misson p{
     width: 970px;
     position: absolute;
     top: 800px;
@@ -188,7 +188,7 @@ input, select {
     bottom: 0;
     
 }
-.詳細1{
+.details1{
     padding: 10px 30px;
     font-size: 20px;
     text-decoration: none;
@@ -198,7 +198,7 @@ input, select {
     top: 250px;
     left: 110px;
 }
-.みかん{
+.orange{
     display: block;
     width: 40%;
     position: relative;
@@ -206,23 +206,23 @@ input, select {
     left: 770px;
     z-index: 1;
 }
-.サービス{
+.service{
     margin-top: 150px;
     background: rgb(209, 209, 209);
     width: 100%;
     height: 1300px;
 }
-.サービス h2{
+.service h2{
     font-size: 34px;
     text-align: center;
     padding: 20px;
 }
-.カメラ{
+.camera{
     width: 50%;
     margin-left: 50%;
     z-index: 1;
 }
-.web制作事業{
+.web-production{
     background: white;
     width: 700px;
     height: 230px;
@@ -234,16 +234,16 @@ input, select {
     position: relative;
     z-index: 2;
 }
-.web制作事業 h3{
+.web-production h3{
     margin-bottom: 20px;
 }
-.サブタイトル{
+.subtitle{
     margin-bottom: 20px;
 }
-.概要{
+.summary{
     margin-bottom: 40px;
 }
-.詳細２{
+.details2{
     padding: 10px 30px;
     font-size: 20px;
     text-decoration: none;
@@ -252,12 +252,12 @@ input, select {
     border: black 1px solid;
     margin-left: 450px;
 }
-.煙{
+.smoke{
     width: 50%;
     margin-top: 200px;
     z-index: 4;
 }
-.web制作事業２{
+.web-production2{
     background: white;
     width: 700px;
     height: 230px;
@@ -270,16 +270,16 @@ input, select {
     position: relative;
     z-index: 3;
 }
-.web制作事業２ h3{
+.web-production2 h3{
     margin-bottom: 20px;
 }
-.サブタイトル２{
+.subtitle2{
     margin-bottom: 20px;
 }
-.概要２{
+.summary2{
     margin-bottom: 40px;
 }
-.詳細３{
+.details3{
     padding: 10px 30px;
     font-size: 20px;
     text-decoration: none;
@@ -288,12 +288,12 @@ input, select {
     border: black 1px solid;
     margin-left: 450px;
 }
-.コンテンツ２{
+.content2{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
 }
-.会社概要{
+.company-profile{
     background:url(/Users/asoshinahisanori/coachtech/img/company.jpeg);
     background-size: cover;
     width: 47%;
@@ -301,33 +301,33 @@ input, select {
     color: white;
     
 }
-.会社概要 h3,
-.会社概要 p{
+.company-profile h3,
+.company-profile p{
     text-align: center;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.会社概要 h3{
+.company-profile h3{
     font-size: 34px;
 }
-.採用情報{
+.employment-information{
     background:url(/Users/asoshinahisanori/coachtech/img/recruit.jpg);
     background-size: cover;
     width: 47%;
     height: 220px;
     color: white;
 }
-.採用情報 h3,
-.採用情報 p{
+.employment-information h3,
+.employment-information p{
     text-align: center;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.採用情報 h3{
+.employment-information h3{
     font-size: 34px;
 }
 .FAQ{
@@ -349,7 +349,7 @@ input, select {
     text-decoration: none;
     margin-left: 35%;
 }
-.コンタクト{
+.contact{
     background: url(/Users/asoshinahisanori/coachtech/img/contact-bg.jpg);
     background-size: cover;
     width: 100%;
@@ -357,29 +357,29 @@ input, select {
     margin-top: 150px;
     color: white;
 }
-.コンタクト h3{
+.contact h3{
     font-size: 30px;
     display: flex;
     justify-content: center;
     padding-top: 150px;
 }
-.サブタイトル３{
+.subtitle3{
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-.概要３{
+.summary3{
     font-size: 37px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-.詳細４{
+.details4{
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-.コンタクト a{
+.contact a{
     padding: 10px 30px;
     text-align: center;
     font-size: 20px;
@@ -392,34 +392,34 @@ input, select {
     margin-right: 610px;
     margin-top: 20px;
 }
-.フッター{
+.footer{
     background: black;
     height: 70px;
 }
-.フッター郡{
+.footer-county{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.会社名２{
+.company-name2{
     font-size: 28px;
     font-weight: bold;
     margin-left: 35px;
     color:white;
     line-height: 70px;
 }
-.コンテンツ３ ul{
+.content3 ul{
     display: flex;
 }
-.コンテンツ３ li{
+.content3 li{
     margin-right: 35px;
     font-size: 16px;
 }
-.コンテンツ３ a{
+.content3 a{
     color: white;
     text-decoration: none;
 }
-.一番下{
+.last{
     display: flex;
     justify-content: center;
     color: white;
