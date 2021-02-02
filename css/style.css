@@ -158,6 +158,20 @@ input, select {
 .news-content{
     padding: 10px;
 }
+.news-title{
+    height: 60px;
+    width: 130px;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 32px;
+    left: 590px;
+    text-align: center;
+    padding-top: 20px;
+}
+    
 .misson{
     color: white;
     background: black;
