@@ -154,9 +154,12 @@ input, select {
     position: absolute;
     top: 540px;
     left: 50%;
+    right: auto;
 }
 .news-content{
-    padding: 10px;
+    position: relative;
+    top: 6px;
+    left: 12px;
 }
 .news-title{
     height: 60px;
@@ -188,17 +191,16 @@ input, select {
     font-size: 28px;
     position: absolute;
     top: 750px;
-    left: 100px;
+    left: 10%;
     right: 0;
     bottom: 0;
     
 }
 .misson p{
-    width: 970px;
     position: absolute;
     top: 800px;
-    left: 100px;
-    right: 0;
+    left: 10%;
+    right: auto;
     bottom: 0;
     
 }
@@ -210,14 +212,15 @@ input, select {
     color: #000;
     position: relative;
     top: 250px;
-    left: 110px;
+    left: 12%;
 }
 .orange{
     display: block;
     width: 40%;
     position: relative;
     top: 60px;
-    left: 770px;
+    left: 54%;
+    right: auto;
     z-index: 1;
 }
 .service{
